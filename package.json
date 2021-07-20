@@ -1,0 +1,25 @@
+{
+  "name": "vaccine_notify",
+  "version": "1.0.0",
+  "description": "Sends notification when vaccine available",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akrha/vaccine_notify.git"
+  },
+  "author": "Akira Hasegawa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akrha/vaccine_notify/issues"
+  },
+  "homepage": "https://github.com/akrha/vaccine_notify#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bluebird": "^3.7.2",
+    "dotenv": "^10.0.0",
+    "puppeteer": "^10.1.0"
+  }
+}
